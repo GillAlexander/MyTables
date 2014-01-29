@@ -1,0 +1,42 @@
+table {
+	font-family: garamond;
+	*border-collapse:collapse; 
+	border-spacing: 0;
+	border: 2px solid black;
+}
+th:hover {
+	background-color: teal;
+	text-decoration: underline;
+}
+th:active {
+	background-color: #cc99cc;
+	color: #cc0033;
+	text-decoration:none;
+}
+th {
+	border: 1px solid black;
+}
+#category {
+	background-color: #99cc33;
+}
+
+.firstGame {
+	background-color: #993333;
+}
+.firstgame:active {
+	background-color: #fff;
+}
+.chemicalWeapons {
+	background-color: #339966;
+}
+.secondGame {
+	background-color: #336699;
+}
+
+tr {
+ -webkit-transition: background-color 2s;
+    -moz-transition: background-color 2s;
+      -ms-transition: background-color 2s;
+         -o-transition: background-color 2s;
+              transition: background-color 2s;
+}
